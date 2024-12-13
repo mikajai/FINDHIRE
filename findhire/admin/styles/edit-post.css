@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman';
+    background-color: #f4f4f9;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.edit-post {
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 800px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #436850;
+}
+
+input[type="text"] {
+    width: 98%;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 150px; 
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+
+.message {
+    background: #e1f5e4;
+    border: 1px solid #a2d2a2;
+    color: #2e7d32;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid #ddd;
+}
+
+textarea {
+    resize: none;
+}
+
+input[type="submit"] {
+    background-color: #436850;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 30%;
+    margin-left: 560px;
+}
+
+input[type="submit"]:hover {
+    background-color: #12372A;
+}
