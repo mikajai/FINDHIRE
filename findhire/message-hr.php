@@ -27,7 +27,7 @@ $user_id = $_SESSION['user_id'];
 </head>
 <body>
     <div class="navbar">   
-        <?php include 'admin/navbar.php'; ?>
+        <?php include 'navbar.php'; ?>
     </div>
 <br>
 <div class="job-posts-container">
